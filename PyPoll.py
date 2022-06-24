@@ -61,7 +61,7 @@ for candidate_name in candidate_votes:
     vote_percentage = float(votes) / float(total_votes) * 100
     
     # Print the candidate name and percentage of votes.
-    print(f"{candidate_name}: received {vote_percentage:.2f}% ({votes:,})")
+    print(f"{candidate_name}: {vote_percentage:.2f}% ({votes:,})")
 
     # Determine winning vote count and candidate
     # Determine if the votes is greater than the winning count.
